@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using switch find out vowel consonant</title>
+</head>
+<body>
+    <script>
+        var letter = prompt("Enter Your Letter: ");
+
+        letter = letter.toLowerCase();
+
+        switch(letter){
+            case "a":
+            case "e":
+            case "i":
+            case "o":
+            case "u":
+                document.write("Its Vowel");
+                break;
+            default:
+                document.write("Its Consonant");
+        }
+    </script>
+</body>
+</html>
