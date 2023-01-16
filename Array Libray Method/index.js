@@ -23,4 +23,6 @@ var NewArray = Name.slice(1);
 document.write(NewArray + "</br>" + "</br>"); // slice method er kaj hocche arry theke method slice kore new array creat kore
 document.write(Name + "</br>" + "</br>");
 
-
+var sortname = Name.sort();     //sort method er kaj hocche value gulu ke alphabet onojai A - Z porjonto sajabe
+Name.reverse();             // reverse method er maddhobe alphabet reverse kore
+document.write(sortname + "</br>" + "</br>");
