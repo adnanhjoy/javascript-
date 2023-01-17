@@ -7,11 +7,11 @@ for(i = 1; i <= 5; i++){
     var RandomNUmber = Math.floor(Math.random()*5)+1;
     
     if(GuessNumber == RandomNUmber){
-        console.log("You Have won");
+        console.log("You Have won" + "</br>" + "</br>");
         NumberofWon++;
     }
     else{
-        console.log("You Have loss ! The Random Number was " + RandomNUmber);
+        console.log("You Have loss ! The Random Number was " + RandomNUmber + "</br>" + "</br>");
         NumberofLoss++;
     }
 }
