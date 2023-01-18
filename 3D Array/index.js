@@ -18,8 +18,8 @@ function HighestMark(MyArray){
         }
     }
     return HighestMarker;
-    return Roll;
+    
 }
 
 let Result = HighestMark(MyArray);
-console.log(Result + " Roll ");
+console.log(Result);
