@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Dimentional Array</title>
+</head>
+<body>
+
+    <p id="demo"></p>
+
+    <script>
+        function ResultList (NameResult){
+            var HighResult = NameResult[0][0];
+            var HighResult = NameResult[0][1];
+            for(var i = 1; i < NameResult.length; i++){
+                if(HighResult < NameResult[i][1]){
+                    HighResult = NameResult[i][1];
+                    HighResult = NameResult[i][0];
+                }
+            }
+            return HighResult;
+        }
+
+        var NameResult = [
+            ["Adnan", 85],
+            ["Farhan", 90],
+            ["Joy", 75],
+            ["Saimon", 95],
+            ["Sohan", 92],
+        ];
+        var Result = ResultList(NameResult);
+        document.getElementById("demo").innerHTML = (Result);
+
+    </script>
+</body>
+</html>
