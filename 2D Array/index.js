@@ -1,13 +1,13 @@
 function HighestRunScore(playersinfo){
-    var max = playersinfo[0][0];
-    var max = playersinfo[0][1];
+    var HighestScorer = playersinfo[0][0];
+    var HighestScore = playersinfo[0][1];
     for(var i = 1; i < playersinfo.length; i++){
-        if(max < playersinfo[i][1]){
-            max = playersinfo[i][1];
-            max = playersinfo[i][0];
+        if(HighestScore < playersinfo[i][1]){
+            HighestScore = playersinfo[i][1];
+            HighestScorer = playersinfo[i][0];
         }
     }
-    return max;
+    return HighestScorer;
 }
 
 var playersinfo = [
