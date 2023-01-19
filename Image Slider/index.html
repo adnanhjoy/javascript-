@@ -5,12 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Slider</title>
+
+    <style>
+        
+    .button{
+        border: none;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        background-color: rgb(167, 75, 14);
+        color: rgb(255, 255, 255);
+        border: 2px solid #4CAF50;
+        border-radius: 5px;
+
+        }
+
+    .button:hover{
+        color: black;
+        background-color: bisque;
+        } 
+        
+    </style>
 </head>
 <body>
 
-    <button onclick="previous()">Previous</button>
+    <button class="button" onclick="previous()">Previous</button>
     <img src="image/1.jpg" alt="" height="300" width="500">
-    <button onclick="next()">Next</button>
+    <button class="button" onclick="next()">Next</button>
 
     <script src="index.js"></script>
 </body>
