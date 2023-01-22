@@ -1,4 +1,4 @@
-.anim{
+.button{
     background-color: #3c4b3d; /* Green */
     border: none;
     color: white;
@@ -12,6 +12,6 @@
 }
 
 .animadd{
-    box-shadow: 0 15px 18px 0 tomatoa;
+    box-shadow: 0 15px 18px 0 tomato;
     opacity: 0.5;
 }

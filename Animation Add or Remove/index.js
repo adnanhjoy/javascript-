@@ -1,6 +1,6 @@
-var len = document.querySelectorAll(".anim").length;
+var len = document.querySelectorAll(".button").length;
 for(i = 0; i < len; i++){
-    document.querySelectorAll(".anim")[i].addEventListener("click", function(){
+    document.querySelectorAll(".button")[i].addEventListener("click", function(){
         var text = this.innerHTML;
         console.log(text);
         PlayAnimation(text);
@@ -9,7 +9,10 @@ for(i = 0; i < len; i++){
 }
 
 function PlayAnimation(text){
-    switch (text){
-        case "Anim 1":
-    }
-}
+    var SelectedButton = document.querySelector("." + text);
+    SelectedButton.classList.add("animadd");
+
+    setTimeout(function(){
+        SelectedButton.classList.remove("animadd")
+    }, 1000);
+};
