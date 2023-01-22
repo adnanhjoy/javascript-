@@ -1,0 +1,19 @@
+.button{
+    border: 1px solid #c5c5c5;
+    background-color: rgb(223, 226, 226);
+    padding: 10px 15px;
+    cursor: pointer;
+    color: black;
+
+
+}
+.button:hover{
+    
+    background-color: #000000;
+    color: wheat;
+}
+
+.anim{
+    box-shadow: 0 5px 10px 0 rgb(12, 1, 1);
+    opacity: 0.5;
+}
