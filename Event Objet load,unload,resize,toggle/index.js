@@ -25,5 +25,4 @@ document.querySelector("details").addEventListener("toggle", function(e){
     else{
         console.log("Close")
     }
-    
 })
