@@ -13,5 +13,5 @@ function timeCount(){
     setInterval(() => {
         count++
         message.innerText = count;
-    }, 2000)
+    }, 1000)
 }
